@@ -220,30 +220,30 @@ $(
     // });
 
     // Initialize MagnificPopup Plugin
-    $(".filtr-container").magnificPopup({
-      type: "iframe",
-      delegate: "a",
-      gallery: {
-        enabled: true,
-      },
-      zoom: {
-        enabled: true,
-        duration: 300,
-        easing: "ease-in-out",
-      },
-    });
-    $(".filtrr-container").magnificPopup({
-      type: "image",
-      delegate: "a",
-      gallery: {
-        enabled: true,
-      },
-      zoom: {
-        enabled: true,
-        duration: 300,
-        easing: "ease-in-out",
-      },
-    });
+    // $(".filtr-container").magnificPopup({
+    //   type: "iframe",
+    //   delegate: "a",
+    //   gallery: {
+    //     enabled: true,
+    //   },
+    //   zoom: {
+    //     enabled: true,
+    //     duration: 300,
+    //     easing: "ease-in-out",
+    //   },
+    // });
+    // $(".filtrr-container").magnificPopup({
+    //   type: "image",
+    //   delegate: "a",
+    //   gallery: {
+    //     enabled: true,
+    //   },
+    //   zoom: {
+    //     enabled: true,
+    //     duration: 300,
+    //     easing: "ease-in-out",
+    //   },
+    // });
 
     // Galley Shuffle When Scrolled Down
     // $('.services').waypoint({
