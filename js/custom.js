@@ -434,3 +434,34 @@ $("#gForm").submit(function (e) {
     });
   }
 });
+
+if (window.matchMedia("(max-width: 600px)").matches) {
+  console.log("yep");
+  $("#111").empty();
+  $("#111")
+    .append(`<div class="col-lg-5 col-md-6 col-sm-6 col-12 filtr-item filtr-container mt-4 pt-2" >
+  <div class="item-holder">
+    <a href="https://drive.google.com/file/d/1lDF_z-e-HgMXucckjW6B5hOgsXL8C1ZI/view?usp=sharing" title="Meme Hub">
+    <img src="images/Projects/Screenshot (223).png" alt="item2">
+      <div class="item-caption">
+        <h2>Meme Hub <br></h2>
+        <p>Click here <br><small>to Check out the description video</small></p>
+        <div class="item-created">Nov 2019</div>
+      </div>
+    </a>
+  </div>
+  <div class="col-lg-7 col-md-6 col-sm-6 col-12 mt-4 text center" >
+    <div class="item-holder">
+      <h3 class="mt-4 text-secondary"><b>MEME HUB</b>, AttainU — First Full Stack project </h3>
+      <p>Meme-Hub is a social media platform, primarily used for sharing memes, giving a glimpse of 9gag.</br> 
+      <a href="https://github.com/attainu/eagle-supreme-meme/tree/final" class="text-secondary"><img src="images/Icons/github-image.png" style="height: 20px; width: auto;       margin-bottom: 4px;" > GitHub Repository</a>
+      <br><a href="http://meme-hub-6.herokuapp.com/" class="text-secondary"><img src="images/Icons/www.png" style="height: 20px; width: auto; margin-bottom: 4px;" >  Project Live Demo | http://meme-hub-6.herokuapp.com/</a>
+      <br> <small>Nov 19,  2019 | Team Strength - 2</small> </p>
+      <ul>
+        <li>Built login, sign-up and forget password functionality with validations in both frontend and backend. Also used <b>Bcrypt</b> for hashing passwords providing an extra layer of security.</li>
+        <li>Implemented <b>Like</b> and <b>Comment</b> features. Like and unlike feature was the trickiest as only logged in users could use it and like count also had to be maintained at the same time.</li>
+        <li>Uploading images and videos was done using <b>Multer</b> in the backend and to save those files <b>Coludinary</b>, ultimately the file link from Coludinary was saved in <b>Mongodb Atlas</b></li>
+      </ul>
+    </div>
+  </div>`);
+}

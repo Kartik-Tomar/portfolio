@@ -1,3 +1,13 @@
+@media only screen and (max-width: 600px) {
+  #con-logo {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #con-logo {
+    width: 50%;
+  }
+}
 /*--------------------------------
    Start Preloader & General Styling
 ----------------------------------*/
